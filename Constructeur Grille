@@ -1,0 +1,9 @@
+ public Grille(Game game, Vector2 dimensionGrille, Vector2 zoneGrille, float intervalleMAJgrille)
+         : base(game)
+      {
+          LargeurGrille = (int)dimensionGrille.X;
+          HauteurGrille = (int)dimensionGrille.Y;
+          IntervalleMAJ = intervalleMAJgrille;
+          
+
+      }
