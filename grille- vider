@@ -1,0 +1,10 @@
+public void vider()
+       {
+         for (int n = 0; n < LargeurGrille; n++)
+        {
+            for (int m = 0; m < HauteurGrille; m++)
+            {
+                Colonie[n, m].ÉtatFutur = false;
+            }
+          }
+       }
